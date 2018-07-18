@@ -1,0 +1,513 @@
+DEBUG 2018-07-08 05:09:07,679 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-08 05:09:08,563 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-07-08 05:09:08,600 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.Web.Host.Startup.XNotifiWebHostModule, Softmax.XNotifi.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,606 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiWebCoreModule, Softmax.XNotifi.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiApplicationModule, Softmax.XNotifi.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiCoreModule, Softmax.XNotifi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,611 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,612 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.EntityFrameworkCore.XNotifiEntityFrameworkModule, Softmax.XNotifi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,613 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,615 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,615 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,616 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:08,623 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-07-08 05:09:08,783 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 05:09:08,783 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 05:09:08,783 [1    ] o.Configuration.LanguageManagementConfig - Converted XNotifi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 05:09:08,783 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 05:09:09,465 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Softmax.XNotifi.EntityFrameworkCore.XNotifiDbContext, Softmax.XNotifi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:09:12,135 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-07-08 05:09:12,387 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-08 05:09:12,425 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-08 05:09:12,454 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: XNotifi
+DEBUG 2018-07-08 05:09:12,485 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-08 05:09:13,235 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-08 05:09:13,386 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-07-08 05:09:13,386 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-07-08 05:09:13,394 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Users.Dto.CreateUserDto
+DEBUG 2018-07-08 05:09:13,396 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Users.Dto.UserDto
+DEBUG 2018-07-08 05:09:13,396 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-07-08 05:09:13,396 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-07-08 05:09:13,396 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.CreateRoleDto
+DEBUG 2018-07-08 05:09:13,396 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.PermissionDto
+DEBUG 2018-07-08 05:09:13,396 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.RoleDto
+DEBUG 2018-07-08 05:09:13,397 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-07-08 05:09:13,397 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.MultiTenancy.Dto.TenantDto
+INFO  2018-07-08 05:09:26,216 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-07-08 05:09:26,216 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-07-08 05:09:26,401 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 199.2333ms 200 
+INFO  2018-07-08 05:09:31,570 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host)
+INFO  2018-07-08 05:09:33,040 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host) - Validation state: Valid
+INFO  2018-07-08 05:09:33,049 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.5667ms.
+INFO  2018-07-08 05:09:33,295 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-07-08 05:09:33,329 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host) in 1748.9009ms
+INFO  2018-07-08 05:09:33,378 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7184.0374ms 302 
+INFO  2018-07-08 05:09:33,485 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-07-08 05:09:33,508 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.8808ms 301 
+INFO  2018-07-08 05:09:33,559 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-07-08 05:09:33,646 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.5823ms 200 text/html
+INFO  2018-07-08 05:09:33,672 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-07-08 05:09:33,685 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-07-08 05:09:33,718 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-07-08 05:09:33,724 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-07-08 05:09:33,725 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-07-08 05:09:33,904 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\bquadre\projects\Softmax.XNotifi\3.9.0\aspnet-core\src\Softmax.XNotifi.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-07-08 05:09:33,907 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 228.0937ms 200 application/javascript
+INFO  2018-07-08 05:09:33,921 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\bquadre\projects\Softmax.XNotifi\3.9.0\aspnet-core\src\Softmax.XNotifi.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2018-07-08 05:09:33,926 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 209.0218ms 200 application/javascript
+INFO  2018-07-08 05:09:34,144 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2018-07-08 05:09:34,188 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2018-07-08 05:09:34,293 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 521.6617ms 200 text/css
+INFO  2018-07-08 05:09:34,361 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 470.2382ms 200 application/javascript
+INFO  2018-07-08 05:09:34,568 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2018-07-08 05:09:34,604 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 863.0455ms 200 application/javascript
+INFO  2018-07-08 05:09:38,611 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-07-08 05:09:38,627 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-07-08 05:09:39,384 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 788.7733ms 200 application/json;charset=utf-8
+DEBUG 2018-07-08 05:12:02,330 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-08 05:12:03,054 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-07-08 05:12:03,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.Web.Host.Startup.XNotifiWebHostModule, Softmax.XNotifi.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,129 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiWebCoreModule, Softmax.XNotifi.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,130 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiApplicationModule, Softmax.XNotifi.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiCoreModule, Softmax.XNotifi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,137 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.EntityFrameworkCore.XNotifiEntityFrameworkModule, Softmax.XNotifi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,137 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,139 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,140 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,140 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:03,148 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-07-08 05:12:03,370 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 05:12:03,370 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 05:12:03,370 [1    ] o.Configuration.LanguageManagementConfig - Converted XNotifi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 05:12:03,370 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 05:12:04,642 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Softmax.XNotifi.EntityFrameworkCore.XNotifiDbContext, Softmax.XNotifi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 05:12:07,142 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-07-08 05:12:07,194 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-08 05:12:07,219 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-08 05:12:07,229 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: XNotifi
+DEBUG 2018-07-08 05:12:07,238 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-08 05:12:07,454 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-08 05:12:07,547 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-07-08 05:12:07,547 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-07-08 05:12:07,562 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Users.Dto.CreateUserDto
+DEBUG 2018-07-08 05:12:07,564 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Users.Dto.UserDto
+DEBUG 2018-07-08 05:12:07,564 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-07-08 05:12:07,565 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-07-08 05:12:07,565 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.CreateRoleDto
+DEBUG 2018-07-08 05:12:07,565 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.PermissionDto
+DEBUG 2018-07-08 05:12:07,565 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.RoleDto
+DEBUG 2018-07-08 05:12:07,567 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-07-08 05:12:07,567 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.MultiTenancy.Dto.TenantDto
+INFO  2018-07-08 05:12:19,520 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-07-08 05:12:19,520 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-07-08 05:12:19,787 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 277.5867ms 200 
+INFO  2018-07-08 05:12:32,850 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host)
+INFO  2018-07-08 05:12:35,641 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host) - Validation state: Valid
+INFO  2018-07-08 05:12:35,670 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 17.0981ms.
+INFO  2018-07-08 05:12:36,356 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-07-08 05:12:36,407 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host) in 3531.0937ms
+INFO  2018-07-08 05:12:36,490 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16987.9419ms 302 
+INFO  2018-07-08 05:12:36,499 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-07-08 05:12:36,534 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.9825ms 301 
+INFO  2018-07-08 05:12:36,546 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-07-08 05:12:36,674 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 93.1856ms 200 text/html
+INFO  2018-07-08 05:12:36,703 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-07-08 05:12:36,709 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-07-08 05:12:36,720 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-07-08 05:12:36,727 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-07-08 05:12:36,801 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-07-08 05:12:36,862 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\bquadre\projects\Softmax.XNotifi\3.9.0\aspnet-core\src\Softmax.XNotifi.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2018-07-08 05:12:36,889 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 140.7907ms 200 application/javascript
+INFO  2018-07-08 05:12:36,896 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2018-07-08 05:12:36,941 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2018-07-08 05:12:36,987 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\bquadre\projects\Softmax.XNotifi\3.9.0\aspnet-core\src\Softmax.XNotifi.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-07-08 05:12:36,992 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2018-07-08 05:12:37,023 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 268.016ms 200 text/css
+INFO  2018-07-08 05:12:37,071 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 198.8192ms 200 application/javascript
+INFO  2018-07-08 05:12:37,117 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 288.5341ms 200 application/javascript
+INFO  2018-07-08 05:12:37,122 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 315.0397ms 200 application/javascript
+INFO  2018-07-08 05:12:40,996 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-07-08 05:12:41,006 [12   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-07-08 05:12:41,089 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2018-07-08 05:12:41,095 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-07-08 05:12:41,101 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.7652ms 200 image/png
+INFO  2018-07-08 05:12:41,135 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-16x16.png  
+INFO  2018-07-08 05:12:41,139 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2018-07-08 05:12:41,143 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.5809ms 200 image/png
+INFO  2018-07-08 05:12:41,447 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 448.5381ms 200 application/json;charset=utf-8
+INFO  2018-07-08 05:14:31,618 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-07-08 05:14:31,634 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.0705ms 200 text/html
+INFO  2018-07-08 05:14:32,353 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-07-08 05:14:32,356 [10   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-07-08 05:14:32,385 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.4984ms 200 application/json;charset=utf-8
+DEBUG 2018-07-08 18:11:15,264 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-08 18:11:15,459 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-07-08 18:11:15,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.Web.Host.Startup.XNotifiWebHostModule, Softmax.XNotifi.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiWebCoreModule, Softmax.XNotifi.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiApplicationModule, Softmax.XNotifi.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiCoreModule, Softmax.XNotifi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,501 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,501 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.EntityFrameworkCore.XNotifiEntityFrameworkModule, Softmax.XNotifi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:15,509 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-07-08 18:11:15,609 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 18:11:15,609 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 18:11:15,609 [1    ] o.Configuration.LanguageManagementConfig - Converted XNotifi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 18:11:15,609 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 18:11:16,044 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Softmax.XNotifi.EntityFrameworkCore.XNotifiDbContext, Softmax.XNotifi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:11:17,152 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-07-08 18:11:17,200 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-08 18:11:17,221 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-08 18:11:17,230 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: XNotifi
+DEBUG 2018-07-08 18:11:17,240 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-08 18:11:17,436 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-08 18:11:17,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-07-08 18:11:17,506 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-07-08 18:11:17,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Clients.Dto.ClientListDto
+DEBUG 2018-07-08 18:11:17,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Clients.Dto.CreateClientInput
+DEBUG 2018-07-08 18:11:17,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Users.Dto.CreateUserDto
+DEBUG 2018-07-08 18:11:17,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Users.Dto.UserDto
+DEBUG 2018-07-08 18:11:17,511 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-07-08 18:11:17,512 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-07-08 18:11:17,512 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.CreateRoleDto
+DEBUG 2018-07-08 18:11:17,512 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.PermissionDto
+DEBUG 2018-07-08 18:11:17,512 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.RoleDto
+DEBUG 2018-07-08 18:11:17,513 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-07-08 18:11:17,513 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.MultiTenancy.Dto.TenantDto
+INFO  2018-07-08 18:11:24,266 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-07-08 18:11:24,266 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-07-08 18:11:24,446 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 185.7112ms 200 
+INFO  2018-07-08 18:11:28,384 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host)
+INFO  2018-07-08 18:11:29,451 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host) - Validation state: Valid
+INFO  2018-07-08 18:11:29,460 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.46ms.
+INFO  2018-07-08 18:11:29,860 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-07-08 18:11:29,883 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host) in 1490.2735ms
+INFO  2018-07-08 18:11:29,922 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-07-08 18:11:29,935 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5683.663ms 302 
+INFO  2018-07-08 18:11:29,994 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 76.2717ms 200 text/html
+INFO  2018-07-08 18:11:30,032 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-07-08 18:11:30,033 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-07-08 18:11:30,035 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-07-08 18:11:30,039 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-07-08 18:11:30,042 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-07-08 18:11:30,083 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-07-08 18:11:30,085 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2018-07-08 18:11:30,087 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2018-07-08 18:11:30,089 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-07-08 18:11:30,091 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-07-08 18:11:30,097 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59.9214ms 304 application/javascript
+INFO  2018-07-08 18:11:30,100 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.813ms 304 application/javascript
+INFO  2018-07-08 18:11:30,123 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.1401ms 304 application/javascript
+INFO  2018-07-08 18:11:30,150 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.3761ms 304 application/javascript
+INFO  2018-07-08 18:11:30,155 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.489ms 304 text/css
+INFO  2018-07-08 18:11:30,809 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-07-08 18:11:30,817 [11   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-07-08 18:11:31,224 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 413.8411ms 200 application/json;charset=utf-8
+INFO  2018-07-08 18:12:24,079 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Client/CreatClient application/json-patch+json 175
+INFO  2018-07-08 18:12:24,089 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-08 18:12:24,092 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-07-08 18:12:24,099 [7    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-07-08 18:12:24,160 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreatClient", controller = "Client"}. Executing action Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application)
+INFO  2018-07-08 18:12:24,162 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-08 18:12:24,164 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-07-08 18:12:25,203 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application) with arguments (Softmax.XNotifi._Clients.Dto.CreateClientInput) - Validation state: Valid
+INFO  2018-07-08 18:12:25,326 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 121.7715ms.
+ERROR 2018-07-08 18:12:26,120 [7    ] Mvc.ExceptionHandling.AbpExceptionFilter - An error occurred while updating the entries. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_AppClients_AbpUsers_UserId". The conflict occurred in database "Softmax_XNotifi", table "dbo.AbpUsers", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\AbpDbContext.cs:line 214
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChangesAsync(CancellationToken cancellationToken) in D:\Github\aspnetboilerplate\src\Abp.ZeroCore.EntityFrameworkCore\Zero\EntityFrameworkCore\AbpZeroCommonDbContext.cs:line 165
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesInDbContextAsync(DbContext dbContext) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 163
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesAsync() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 68
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.CompleteUowAsync() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 83
+   at Abp.Domain.Uow.UnitOfWorkBase.CompleteAsync() in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:line 270
+   at Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Uow\AbpUowActionFilter.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-07-08 18:12:26,539 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-07-08 18:12:26,583 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application) in 2420.518ms
+INFO  2018-07-08 18:12:26,587 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2507.2891ms 500 application/json; charset=utf-8
+DEBUG 2018-07-08 18:15:51,837 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-08 18:15:52,215 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-07-08 18:15:52,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.Web.Host.Startup.XNotifiWebHostModule, Softmax.XNotifi.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,245 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiWebCoreModule, Softmax.XNotifi.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,246 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiApplicationModule, Softmax.XNotifi.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,246 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiCoreModule, Softmax.XNotifi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,246 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,247 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,247 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,248 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,249 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.EntityFrameworkCore.XNotifiEntityFrameworkModule, Softmax.XNotifi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,249 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,249 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:52,256 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-07-08 18:15:52,378 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 18:15:52,378 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 18:15:52,378 [1    ] o.Configuration.LanguageManagementConfig - Converted XNotifi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 18:15:52,378 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 18:15:52,913 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Softmax.XNotifi.EntityFrameworkCore.XNotifiDbContext, Softmax.XNotifi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:15:54,141 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-07-08 18:15:54,204 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-08 18:15:54,232 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-08 18:15:54,243 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: XNotifi
+DEBUG 2018-07-08 18:15:54,255 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-08 18:15:54,475 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-08 18:15:54,548 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2018-07-08 18:15:54,548 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-07-08 18:15:54,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Clients.Dto.ClientListDto
+DEBUG 2018-07-08 18:15:54,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Clients.Dto.CreateClientInput
+DEBUG 2018-07-08 18:15:54,555 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Users.Dto.CreateUserDto
+DEBUG 2018-07-08 18:15:54,555 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Users.Dto.UserDto
+DEBUG 2018-07-08 18:15:54,555 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-07-08 18:15:54,555 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-07-08 18:15:54,555 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.CreateRoleDto
+DEBUG 2018-07-08 18:15:54,555 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.PermissionDto
+DEBUG 2018-07-08 18:15:54,555 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.RoleDto
+DEBUG 2018-07-08 18:15:54,556 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-07-08 18:15:54,556 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.MultiTenancy.Dto.TenantDto
+INFO  2018-07-08 18:16:01,093 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-07-08 18:16:01,093 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-07-08 18:16:01,239 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 155.834ms 200 
+INFO  2018-07-08 18:16:05,134 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host)
+INFO  2018-07-08 18:16:06,250 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host) - Validation state: Valid
+INFO  2018-07-08 18:16:06,276 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 14.4239ms.
+INFO  2018-07-08 18:16:06,640 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-07-08 18:16:06,667 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host) in 1525.2449ms
+INFO  2018-07-08 18:16:06,703 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-07-08 18:16:06,714 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5634.7108ms 302 
+INFO  2018-07-08 18:16:06,770 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.5921ms 200 text/html
+INFO  2018-07-08 18:16:06,807 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-07-08 18:16:06,813 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-07-08 18:16:06,815 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-07-08 18:16:06,857 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-07-08 18:16:06,864 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-07-08 18:16:06,867 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-07-08 18:16:06,898 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.8826ms 304 application/javascript
+INFO  2018-07-08 18:16:06,900 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 75.0062ms 304 text/css
+INFO  2018-07-08 18:16:06,905 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.0022ms 304 application/javascript
+INFO  2018-07-08 18:16:07,167 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-07-08 18:16:07,177 [7    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-07-08 18:16:07,582 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 414.7978ms 200 application/json;charset=utf-8
+INFO  2018-07-08 18:16:37,889 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Client/CreatClient application/json-patch+json 175
+INFO  2018-07-08 18:16:37,900 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-08 18:16:37,906 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-07-08 18:16:37,918 [10   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-07-08 18:16:37,976 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreatClient", controller = "Client"}. Executing action Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application)
+INFO  2018-07-08 18:16:37,978 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-08 18:16:37,980 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-07-08 18:16:38,873 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application) with arguments (Softmax.XNotifi._Clients.Dto.CreateClientInput) - Validation state: Valid
+INFO  2018-07-08 18:17:39,782 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 60905.7032ms.
+INFO  2018-07-08 18:17:39,862 [17   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-07-08 18:17:39,891 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application) in 61912.17ms
+INFO  2018-07-08 18:17:39,895 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62007.0803ms 200 application/json; charset=utf-8
+INFO  2018-07-08 18:19:47,853 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Client/CreatClient application/json-patch+json 175
+INFO  2018-07-08 18:19:47,856 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-08 18:19:47,859 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-07-08 18:19:47,862 [6    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-07-08 18:19:47,878 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreatClient", controller = "Client"}. Executing action Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application)
+INFO  2018-07-08 18:19:47,886 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-08 18:19:47,889 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-07-08 18:19:47,905 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application) with arguments (Softmax.XNotifi._Clients.Dto.CreateClientInput) - Validation state: Valid
+INFO  2018-07-08 18:19:51,624 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 3690.9991ms.
+INFO  2018-07-08 18:19:51,650 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-07-08 18:19:51,653 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application) in 3771.7291ms
+INFO  2018-07-08 18:19:51,661 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3803.5693ms 200 application/json; charset=utf-8
+INFO  2018-07-08 18:20:23,152 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Client/CreatClient application/json-patch+json 179
+INFO  2018-07-08 18:20:23,156 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-08 18:20:23,159 [20   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-07-08 18:20:23,162 [20   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-07-08 18:20:23,175 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreatClient", controller = "Client"}. Executing action Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application)
+INFO  2018-07-08 18:20:23,178 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-08 18:20:23,183 [20   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-07-08 18:20:23,200 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application) with arguments (Softmax.XNotifi._Clients.Dto.CreateClientInput) - Validation state: Valid
+INFO  2018-07-08 18:20:25,837 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 2632.9442ms.
+INFO  2018-07-08 18:20:25,885 [17   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-07-08 18:20:25,888 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Softmax.XNotifi._Clients.Dto.ClientAppService.CreatClient (Softmax.XNotifi.Application) in 2710.2365ms
+INFO  2018-07-08 18:20:25,891 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2741.697ms 200 application/json; charset=utf-8
+INFO  2018-07-08 18:20:52,967 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Client/GetAll  
+INFO  2018-07-08 18:20:52,970 [15   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-07-08 18:20:53,012 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Client"}. Executing action Softmax.XNotifi._Clients.Dto.ClientAppService.GetAll (Softmax.XNotifi.Application)
+INFO  2018-07-08 18:20:53,033 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Softmax.XNotifi._Clients.Dto.ClientAppService.GetAll (Softmax.XNotifi.Application) with arguments (Softmax.XNotifi._Clients.Dto.GetAllClientsInput) - Validation state: Valid
+INFO  2018-07-08 18:20:53,182 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Softmax.XNotifi._Clients.Dto.ClientAppService.GetAll (Softmax.XNotifi.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 145.2605ms.
+INFO  2018-07-08 18:20:53,194 [17   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-07-08 18:20:53,208 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Softmax.XNotifi._Clients.Dto.ClientAppService.GetAll (Softmax.XNotifi.Application) in 193.3712ms
+INFO  2018-07-08 18:20:53,211 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 243.5524ms 200 application/json; charset=utf-8
+DEBUG 2018-07-08 18:56:43,734 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-08 18:56:43,915 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-07-08 18:56:43,952 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.Web.Host.Startup.XNotifiWebHostModule, Softmax.XNotifi.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,960 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiWebCoreModule, Softmax.XNotifi.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,960 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiApplicationModule, Softmax.XNotifi.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiCoreModule, Softmax.XNotifi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,962 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,963 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.EntityFrameworkCore.XNotifiEntityFrameworkModule, Softmax.XNotifi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:43,972 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-07-08 18:56:44,107 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 18:56:44,107 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 18:56:44,107 [1    ] o.Configuration.LanguageManagementConfig - Converted XNotifi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 18:56:44,107 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 18:56:44,586 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Softmax.XNotifi.EntityFrameworkCore.XNotifiDbContext, Softmax.XNotifi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 18:56:45,683 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-07-08 18:56:45,723 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-08 18:56:45,742 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-08 18:56:45,751 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: XNotifi
+DEBUG 2018-07-08 18:56:45,759 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-08 18:56:45,952 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-08 18:56:46,031 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2018-07-08 18:56:46,031 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-07-08 18:56:46,038 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Clients.Dto.CreateClientInput
+DEBUG 2018-07-08 18:56:46,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Clients.Dto.ListClientDto
+DEBUG 2018-07-08 18:56:46,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Applications.Dto.CreateApplicationInput
+DEBUG 2018-07-08 18:56:46,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Applications.Dto.GetAllApplicationsInput
+DEBUG 2018-07-08 18:56:46,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Applications.Dto.ListApplicationDto
+DEBUG 2018-07-08 18:56:46,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Applications.Dto.UpdateApplicationInput
+DEBUG 2018-07-08 18:56:46,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Users.Dto.CreateUserDto
+DEBUG 2018-07-08 18:56:46,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Users.Dto.UserDto
+DEBUG 2018-07-08 18:56:46,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-07-08 18:56:46,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-07-08 18:56:46,040 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.CreateRoleDto
+DEBUG 2018-07-08 18:56:46,040 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.PermissionDto
+DEBUG 2018-07-08 18:56:46,040 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.RoleDto
+DEBUG 2018-07-08 18:56:46,040 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-07-08 18:56:46,040 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.MultiTenancy.Dto.TenantDto
+INFO  2018-07-08 18:56:52,768 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-07-08 18:56:52,768 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-07-08 18:56:52,907 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 150.9678ms 200 
+INFO  2018-07-08 18:56:56,722 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host)
+INFO  2018-07-08 18:56:57,728 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host) - Validation state: Valid
+INFO  2018-07-08 18:56:57,736 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.4823ms.
+INFO  2018-07-08 18:56:58,100 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-07-08 18:56:58,126 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host) in 1396.4645ms
+INFO  2018-07-08 18:56:58,157 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-07-08 18:56:58,167 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5416.1419ms 302 
+INFO  2018-07-08 18:56:58,220 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.5618ms 200 text/html
+INFO  2018-07-08 18:56:58,258 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-07-08 18:56:58,260 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-07-08 18:56:58,266 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-07-08 18:56:58,308 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-07-08 18:56:58,313 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-07-08 18:56:58,316 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-07-08 18:56:58,341 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.5537ms 304 application/javascript
+INFO  2018-07-08 18:56:58,349 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.9103ms 304 text/css
+INFO  2018-07-08 18:56:58,355 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.377ms 304 application/javascript
+INFO  2018-07-08 18:56:58,612 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-07-08 18:56:58,622 [6    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-07-08 18:56:59,028 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 415.6015ms 200 application/json;charset=utf-8
+DEBUG 2018-07-08 19:01:42,120 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-08 19:01:42,284 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-07-08 19:01:42,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.Web.Host.Startup.XNotifiWebHostModule, Softmax.XNotifi.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiWebCoreModule, Softmax.XNotifi.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiApplicationModule, Softmax.XNotifi.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.XNotifiCoreModule, Softmax.XNotifi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,340 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,342 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,343 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Softmax.XNotifi.EntityFrameworkCore.XNotifiEntityFrameworkModule, Softmax.XNotifi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,343 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,345 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,346 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:42,353 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-07-08 19:01:42,543 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 19:01:42,543 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 19:01:42,543 [1    ] o.Configuration.LanguageManagementConfig - Converted XNotifi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 19:01:42,543 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-08 19:01:42,971 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Softmax.XNotifi.EntityFrameworkCore.XNotifiDbContext, Softmax.XNotifi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-08 19:01:44,074 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-07-08 19:01:44,113 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-08 19:01:44,132 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-08 19:01:44,142 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: XNotifi
+DEBUG 2018-07-08 19:01:44,151 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-08 19:01:44,343 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-08 19:01:44,412 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2018-07-08 19:01:44,412 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-07-08 19:01:44,418 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Clients.Dto.CreateClientInput
+DEBUG 2018-07-08 19:01:44,418 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Clients.Dto.ListClientDto
+DEBUG 2018-07-08 19:01:44,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Applications.Dto.CreateApplicationInput
+DEBUG 2018-07-08 19:01:44,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Applications.Dto.GetAllApplicationsInput
+DEBUG 2018-07-08 19:01:44,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Applications.Dto.ListApplicationDto
+DEBUG 2018-07-08 19:01:44,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi._Applications.Dto.UpdateApplicationInput
+DEBUG 2018-07-08 19:01:44,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Users.Dto.CreateUserDto
+DEBUG 2018-07-08 19:01:44,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Users.Dto.UserDto
+DEBUG 2018-07-08 19:01:44,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-07-08 19:01:44,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-07-08 19:01:44,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.CreateRoleDto
+DEBUG 2018-07-08 19:01:44,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.PermissionDto
+DEBUG 2018-07-08 19:01:44,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.Roles.Dto.RoleDto
+DEBUG 2018-07-08 19:01:44,420 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-07-08 19:01:44,420 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Softmax.XNotifi.MultiTenancy.Dto.TenantDto
+INFO  2018-07-08 19:01:51,644 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-07-08 19:01:51,644 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-07-08 19:01:51,786 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 152.3712ms 200 
+INFO  2018-07-08 19:01:55,480 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host)
+INFO  2018-07-08 19:01:56,558 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host) - Validation state: Valid
+INFO  2018-07-08 19:01:56,567 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.3467ms.
+INFO  2018-07-08 19:01:56,950 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-07-08 19:01:56,978 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Softmax.XNotifi.Web.Host.Controllers.HomeController.Index (Softmax.XNotifi.Web.Host) in 1490.2565ms
+INFO  2018-07-08 19:01:57,037 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-07-08 19:01:57,046 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5416.9236ms 302 
+INFO  2018-07-08 19:01:57,107 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 89.5015ms 200 text/html
+INFO  2018-07-08 19:01:57,147 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-07-08 19:01:57,153 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-07-08 19:01:57,161 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-07-08 19:01:57,203 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-07-08 19:01:57,205 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-07-08 19:01:57,208 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-07-08 19:01:57,221 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.8697ms 304 application/javascript
+INFO  2018-07-08 19:01:57,254 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.6688ms 304 text/css
+INFO  2018-07-08 19:01:57,259 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 61.9455ms 304 application/javascript
+INFO  2018-07-08 19:01:57,535 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-07-08 19:01:57,549 [6    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-07-08 19:01:57,957 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 422.1967ms 200 application/json;charset=utf-8
